@@ -285,7 +285,7 @@ proxy-groups:
 
 # 分流规则提供(订阅)组
 rule-providers:
-  Netflix解锁:
+  奈飞:
     type: http
     behavior: domain
     format: yaml
@@ -312,7 +312,7 @@ rule-providers:
 # 分流规则
 rules:
   # 通过订阅规则进行广告拦截
-  - RULE-SET,Netflix解锁,Netflix
+  - RULE-SET,奈飞,Netflix
   - RULE-SET,anti-AD,广告拦截(anti-AD)
   - RULE-SET,秋风广告规则,广告拦截(秋风)
   # 屏蔽索尼服务
