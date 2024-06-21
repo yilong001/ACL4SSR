@@ -231,6 +231,22 @@ proxy-groups:
       - 订阅3
       - 订阅4
 
+  - name: Netflix
+    # select(手动选择) 或 url-test(自动测速)
+    type: select
+    # 筛选关键词或正则表达式的节点，多个用|分隔
+    filter: "江苏|镇江|浙江|南京|北京|上海|广东|广州|苏州|杭州|福州|扬州|贵州|兰州|徐州|郑州|广西|河南|河北|重庆|南宁|宿迁|沈阳|四川|安徽|深圳|辽宁|济南|九江|长沙|昆明|武汉|陕西|西宁|芜湖|天津|南昌|成都|山西|太原|保定|湖南|香港|加拿大"
+    proxies:
+      - 国外代理
+      
+    use:
+      - 本地节点(YAML)
+      - 本地节点(uri)
+      - 订阅1
+      - 订阅2
+      - 订阅3
+      - 订阅4
+  
   - name: 游戏UDP
     type: select
     filter: "镇江|浙江|南京|北京|上海|广东|广州|苏州|杭州|福州|扬州|贵州|兰州|徐州|郑州|广西|河南|河北|重庆|南宁|宿迁|沈阳|四川|安徽|深圳|辽宁|济南|九江|长沙|昆明|武汉|陕西|西宁|芜湖|天津|南昌|成都|山西|太原|保定|湖南"
@@ -283,6 +299,14 @@ rule-providers:
     format: yaml
     path: ./RuleProviders/AWAvenue-Ads-Rule-Clash.yaml
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt"
+    interval: 86400
+
+  Netflix:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./RuleProviders/Netflix.yaml
+    url: "https://raw.githubusercontent.com/yilong001/ACL4SSR/main/Clash/config/Netflix/Netflix.txt"
     interval: 86400
 
 # 分流规则
