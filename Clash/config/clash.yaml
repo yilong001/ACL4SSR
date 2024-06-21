@@ -285,12 +285,12 @@ proxy-groups:
 
 # 分流规则提供(订阅)组
 rule-providers:
-  anti-AD:
+  Netflix:
     type: http
     behavior: domain
     format: yaml
-    path: ./RuleProviders/anti-AD.yaml
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+    path: ./RuleProviders/Netflix.yaml
+    url: "https://raw.githubusercontent.com/yilong001/ACL4SSR/main/Clash/config/Netflix/Netflix.txt"
     interval: 86400
 
   秋风广告规则:
@@ -301,12 +301,12 @@ rule-providers:
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt"
     interval: 86400
 
-  Netflix:
+  anti-AD:
     type: http
     behavior: domain
     format: yaml
-    path: ./RuleProviders/Netflix.yaml
-    url: "https://raw.githubusercontent.com/yilong001/ACL4SSR/main/Clash/config/Netflix/Netflix.txt"
+    path: ./RuleProviders/anti-AD.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
     interval: 86400
 
 # 分流规则
