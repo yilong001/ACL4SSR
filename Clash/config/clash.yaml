@@ -306,7 +306,7 @@ rule-providers:
     behavior: domain
     format: yaml
     path: ./RuleProviders/anti-AD.yaml
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+    url: "https://raw.githubusercontent.com/yilong001/ACL4SSR/main/Clash/config/Netflix/anti-AD.yaml"
     interval: 86400
 
 # 分流规则
