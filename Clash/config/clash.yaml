@@ -289,7 +289,7 @@ rule-providers:
     type: http
     behavior: domain
     format: yaml
-    path: ./RuleProviders/Netflix.yaml
+    path: ./RuleProviders/netflix-classical-set.yaml
     url: "https://clashios.app/static/rules/netflix-classical-set.yaml"
     interval: 86400
 
