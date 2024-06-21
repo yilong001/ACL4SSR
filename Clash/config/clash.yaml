@@ -290,7 +290,7 @@ rule-providers:
     behavior: domain
     format: yaml
     path: ./RuleProviders/Netflix.yaml
-    url: "https://raw.githubusercontent.com/yilong001/ACL4SSR/main/Clash/config/Netflix/Netflix.txt"
+    url: "https://clashios.app/static/rules/netflix-classical-set.yaml"
     interval: 86400
 
   秋风广告规则:
