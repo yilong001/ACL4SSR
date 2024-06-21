@@ -285,12 +285,20 @@ proxy-groups:
 
 # 分流规则提供(订阅)组
 rule-providers:
-  奈飞:
+  netflix-classical-set:
     type: http
     behavior: domain
     format: yaml
     path: ./RuleProviders/Netflix.yaml
     url: "https://clashios.app/static/rules/netflix-classical-set.yaml"
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./RuleProviders/gfw.yaml
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
     interval: 86400
 
   秋风广告规则:
@@ -352,7 +360,6 @@ rules:
   - IP-CIDR,207.45.72.0/22,Netflix,no-resolve
   - IP-CIDR,208.75.76.0/22,Netflix,no-resolve
   # 通过订阅规则进行广告拦截
-  - RULE-SET,奈飞,Netflix
   - RULE-SET,anti-AD,广告拦截(anti-AD)
   - RULE-SET,秋风广告规则,广告拦截(秋风)
   # 屏蔽索尼服务
