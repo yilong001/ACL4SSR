@@ -1,3 +1,4 @@
+payload:
   - DOMAIN-KEYWORD,netflixdnstest,Netflix
   - DOMAIN,netflix.com.edgesuite.net,Netflix
   - DOMAIN-SUFFIX,fast.com,Netflix
