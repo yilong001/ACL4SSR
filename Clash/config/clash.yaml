@@ -285,12 +285,12 @@ proxy-groups:
 
 # 分流规则提供(订阅)组
 rule-providers:
-  netflix-classical-set:
+  netflix:
     type: http
     behavior: domain
     format: yaml
     path: ./RuleProviders/netflix-classical-set.yaml
-    url: "https://clashios.app/static/rules/netflix-classical-set.yaml"
+    url: "https://raw.githubusercontent.com/yilong001/ACL4SSR/main/Clash/config/Netflix/Netflix.txt"
     interval: 86400
 
   gfw:
