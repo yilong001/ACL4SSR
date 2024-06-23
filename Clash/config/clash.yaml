@@ -351,7 +351,6 @@ rules:
   - IP-CIDR,203.75.84.0/24,Netflix,no-resolve
   - IP-CIDR,207.45.72.0/22,Netflix,no-resolve
   - IP-CIDR,208.75.76.0/22,Netflix,no-resolve
-  - RULE-SET,Netflix,Netflix
   # 通过订阅规则进行广告拦截
   - RULE-SET,anti-AD,广告拦截(anti-AD)
   - RULE-SET,秋风广告规则,广告拦截(秋风)
