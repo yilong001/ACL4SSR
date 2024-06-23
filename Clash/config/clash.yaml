@@ -285,7 +285,7 @@ proxy-groups:
 
 # 分流规则提供(订阅)组
 rule-providers:
-  netflix:
+  netflix(分流):
     type: http
     behavior: domain
     format: yaml
