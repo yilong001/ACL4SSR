@@ -25,7 +25,7 @@ proxy-providers:
     url: ""
     interval: 86400
     health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 86400, timeout: 5000}
-    override: {skip-cert-verify: true, dialer-proxy: "百度直连", additional-suffix: "德国"}
+    override: {skip-cert-verify: true, dialer-proxy: "百度直连", additional-suffix: ""}
 
   订阅4:
     type: http
