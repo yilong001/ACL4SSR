@@ -162,7 +162,6 @@ dns:
   proxy-server-nameserver:
     - "https://1.12.12.12/dns-query#百度直连"
     - "https://dns.wgys.eu.org/dns-query#国外代理"
-    - "https://dns.wgys.eu.org/dns-query#Netflix"
   # 后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信，配置 fallback 后默认启用 fallback-filter，geoip-code 为 cn
   fallback:
     - "https://1.0.0.1/dns-query#国外代理"
