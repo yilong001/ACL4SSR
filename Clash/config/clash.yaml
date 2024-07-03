@@ -162,6 +162,7 @@ dns:
   proxy-server-nameserver:
     - "https://1.12.12.12/dns-query#百度直连"
     - "https://dns.wgys.eu.org/dns-query#国外代理"
+    - "https://dns.wgys.eu.org/dns-query#Netflix"
   # 后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信，配置 fallback 后默认启用 fallback-filter，geoip-code 为 cn
   fallback:
     - "https://1.0.0.1/dns-query#国外代理"
@@ -178,6 +179,7 @@ dns:
   nameserver-policy:
     "geosite:cn,private":
       - "https://dns.wgys.eu.org/dns-query#国内代理"
+      - "https://dns.wgys.eu.org/dns-query#Netflix"
       - "https://1.12.12.12/dns-query#国内代理"
       - "https://223.5.5.5/dns-query#国内代理"
 # 想要走百度定向就删掉双引号里的彩信直连
