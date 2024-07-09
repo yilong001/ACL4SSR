@@ -179,7 +179,6 @@ dns:
   nameserver-policy:
     "geosite:cn,private":
       - "https://hk-dns.wgys.eu.org/dns-query#国外代理"
-      - "https://hk-dns.wgys.eu.org/dns-query#国内代理"
       - "https://1.12.12.12/dns-query#国内代理"
       - "https://223.5.5.5/dns-query#国内代理"
 # 想要走百度定向就删掉双引号里的彩信直连
