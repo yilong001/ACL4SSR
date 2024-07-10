@@ -1,11 +1,10 @@
-# These IPs will only block the licensing part of Adobe apps,
+# These IPs will only block the telemetry check of Adobe apps,
 # and shouldn't interfere with any other network option,
 # such as AI generation, downloads, etc.
-# Alternative list using 127.0.0.1 instead of 0.0.0.0
-# can be found at https://a.dove.isdumb.one/127.txt
-# Repository was taken down by a DMCA claim from Adobe.
-# Please check https://t.me/adobeisdumb for updates on the matter.
-# Last update: 2024-06-14 16:27 UTC
+# Pop up window? Report at:
+# https://github.com/ignaciocastro/a-dove-is-dumb/issues
+# Or follow updates at https://a.dove.isdumb.one/telegram
+# Last update: 2024-07-08 18:43 UTC
 DOMAIN,ic.adobe.io
 DOMAIN,cc-api-data.adobe.io
 DOMAIN,cc-api-data-stage.adobe.io
@@ -50,6 +49,10 @@ DOMAIN,r3zj0yju1q.adobe.io
 DOMAIN,r5hacgq5w6.adobe.io
 DOMAIN,vajcbj9qgq.adobe.io
 DOMAIN,vcorzsld2a.adobe.io
+DOMAIN,7hewqka7ix.adobe.io
+DOMAIN,4hvtkfouhu.adobe.io	
+DOMAIN,bo3u7sbfvf.adobe.io	
+DOMAIN,h9m2j0ykj7.adobe.io
 DOMAIN,cv218qmzox6.prod.cloud.adobe.io
 DOMAIN,cv24b15c1z0.prod.cloud.adobe.io
 DOMAIN,cv24v41zibm.prod.cloud.adobe.io
@@ -451,3 +454,79 @@ DOMAIN,ktb8rx6uhe.adobestats.io
 DOMAIN,heufuideue.adobestats.io
 DOMAIN,xq68npgl4w.adobestats.io
 DOMAIN,vnm70hlbn4.adobestats.io
+DOMAIN,p4hiwy76wl.adobestats.io
+DOMAIN,q7i4awui0j.adobestats.io
+DOMAIN,soirhk7bm2.adobestats.io
+DOMAIN,0789i4f3cq.adobestats.io
+DOMAIN,827x3zvk4q.adobestats.io
+DOMAIN,8ljcntz31v.adobestats.io
+DOMAIN,95yojg6epq.adobestats.io
+DOMAIN,9wcrtdzcti.adobestats.io
+DOMAIN,a3dxeq2iq9.adobestats.io
+DOMAIN,hrfn4gru1j.adobestats.io
+DOMAIN,kx8yghodgl.adobestats.io
+DOMAIN,olh5t1ccns.adobestats.io
+DOMAIN,svcgy434g6.adobestats.io
+DOMAIN,uwr2upexhs.adobestats.io
+DOMAIN,wk0sculz2x.adobestats.io
+DOMAIN,xbhspynj8t.adobestats.io
+DOMAIN,xod1t4qsyk.adobestats.io
+DOMAIN,iu7mq0jcce.adobestats.io
+DOMAIN,tdatxzi3t4.adobestats.io
+DOMAIN,rptowanjjh.adobestats.io
+DOMAIN,3cnu7l5q8s.adobestats.io
+DOMAIN,ow1o9yr32j.adobestats.io
+DOMAIN,bc27a8e3zw.adobestats.io
+DOMAIN,ok6tbgxfta.adobestats.io
+DOMAIN,9nqvoa544j.adobestats.io
+DOMAIN,arzggvbs37.adobestats.io
+DOMAIN,d8hof9a6gg.adobestats.io
+DOMAIN,qh0htdwe2n.adobestats.io
+DOMAIN,fu9wr8tk0u.adobestats.io
+DOMAIN,0ss1vovh4a.adobestats.io
+DOMAIN,15ousmguga.adobestats.io
+DOMAIN,3oidzvonpa.adobestats.io
+DOMAIN,5pjcqccrcu.adobestats.io
+DOMAIN,75ffpy5iio.adobestats.io
+DOMAIN,7fj42ny0sd.adobestats.io
+DOMAIN,drwizwikc0.adobestats.io
+DOMAIN,fl34tml8is.adobestats.io
+DOMAIN,kd4c3z4xbz.adobestats.io
+DOMAIN,ksw6oyvdk6.adobestats.io
+DOMAIN,l91nnnkmbi.adobestats.io
+DOMAIN,ln3pv36xx8.adobestats.io
+DOMAIN,m5cgk2pkdn.adobestats.io
+DOMAIN,nj66fd4dzr.adobestats.io
+DOMAIN,nl00xmmmn5.adobestats.io
+DOMAIN,wn9kta1iw4.adobestats.io
+DOMAIN,x3sszs7ihy.adobestats.io
+DOMAIN,nrenlhdc1t.adobestats.io
+DOMAIN,6nbt0kofc7.adobestats.io
+DOMAIN,kmqhqhs02w.adobestats.io
+DOMAIN,wdyav7y3rf.adobestats.io
+DOMAIN,3ysvacl1hb.adobestats.io
+DOMAIN,bqbvmlmtmo.adobestats.io
+DOMAIN,zn0o46rt48.adobestats.io
+DOMAIN,8mtavkaq40.adobestats.io
+DOMAIN,52h0nva0wa.adobestats.io
+DOMAIN,4t5jyh9fkk.adobestats.io
+DOMAIN,hen2jsru7c.adobestats.io
+DOMAIN,6tpqsy07cp.adobestats.io
+DOMAIN,0andkf1e8e.adobestats.io
+DOMAIN,2kc4lqhpto.adobestats.io
+DOMAIN,43q1uykg1z.adobestats.io
+DOMAIN,7zak80l8ic.adobestats.io
+DOMAIN,9dal0pbsx3.adobestats.io
+DOMAIN,9rcgbke6qx.adobestats.io
+DOMAIN,cwejcdduvp.adobestats.io
+DOMAIN,dq1gubixz7.adobestats.io
+DOMAIN,fc2k38te2m.adobestats.io
+DOMAIN,i1j2plx3mv.adobestats.io
+DOMAIN,lnosso28q5.adobestats.io
+DOMAIN,npt74s16x9.adobestats.io
+DOMAIN,o6pk3ypjcf.adobestats.io
+DOMAIN,pcmdl6zcfd.adobestats.io
+DOMAIN,q0z6ycmvhl.adobestats.io
+DOMAIN,quptxdg94y.adobestats.io
+DOMAIN,s4y2s7r9ah.adobestats.io
+DOMAIN,yajkeabyrj.adobestats.io
