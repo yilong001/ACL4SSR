@@ -71,9 +71,9 @@ unified-delay: true
 # TCP连接并发，如果域名解析结果对应多个IP，并发所有IP，选择握手最快的 IP 进行连接
 tcp-concurrent: true
 # 外部控制 (API)，外部控制器，可以使用 RESTful API 来控制你的 Clash 内核
-external-controller: 127.0.0.1:9091
+external-controller: 127.0.0.1:9090
 # API 的访问密钥
-secret: "1234"
+secret: "12"
 # 外部用户界面，可以将静态网页资源（比如 Clash-dashboard) 运行在 Clash API, 路径为 API 地址/ui   可以为绝对路径，或者 Clash 工作目录的相对路径
 external-ui: Metacubexd
 # 自定义外部用户界面下载地址
