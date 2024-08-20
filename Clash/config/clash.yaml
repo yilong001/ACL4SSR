@@ -6,7 +6,7 @@ proxy-providers:
   订阅1:
     type: http
     path: ./ProxyProviders/订阅1.yaml
-    url: "https://url.wgys.eu.org/ccvps"
+    url: ""
     interval: 86400
     health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 86400, timeout: 5000}
     override: {skip-cert-verify: true, dialer-proxy: "百度直连", additional-suffix: " -CC"}
