@@ -140,7 +140,7 @@ dns:
   # dns 服务监听
   listen: 0.0.0.0:1053
   # 是否解析 IPV6, 如为 false, 则回应 AAAA 的空解析，可选值 true/false
-  ipv6: false
+  ipv6: true
   # Clash 的 dns 处理模式，可选值 fake-ip / redir-host
   enhanced-mode: fake-ip
   # fakeip 下的 IP 段设置，tun 网卡的默认 ip 也使用此值，格式为 ip/掩码（一般填 198.18.0.1/16 或 28.0.0.1/8）
@@ -200,7 +200,7 @@ proxies:
 proxy-groups:
   - name: 国外代理
     # select(手动选择) 或 url-test(自动测速)
-    type: select
+    type: url-test
     # 排除关键词或正则表达式的节点，多个用|分隔
     exclude-filter: "江苏|镇江|浙江|南京|北京|上海|广东|苏州|杭州|福州|扬州|贵州|兰州|徐州|郑州|广西|河南|河北|重庆|南宁|宿迁|沈阳|四川|安徽|深圳|辽宁|济南|九江|长沙|昆明|武汉|陕西|西宁|芜湖|天津|南昌|成都|山西|太原|保定|湖南|SG|HK"
     # 根据节点类型排除(不支持正则表达式)，多个用|分隔。节点类型：HTTP SOCKS Shadowsocks ShadowsocksR VMess VLESS Trojan Hysteria Hysteria2 TUIC WireGuard
