@@ -206,7 +206,7 @@ proxy-groups:
     # 根据节点类型排除(不支持正则表达式)，多个用|分隔。节点类型：HTTP SOCKS Shadowsocks ShadowsocksR VMess VLESS Trojan Hysteria Hysteria2 TUIC WireGuard
     exclude-type: ""
     proxies:
-      - 国内节点
+      - 国内代理
       
     use:
       - 本地节点(YAML)
